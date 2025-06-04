@@ -1,20 +1,40 @@
 @font-face {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat Regular', sans-serif;
   src: url('https://jorge-jbs.github.io/assets/Montserrat-Regular.ttf') format('truetype');
 }
 
-html{
-  font-family: Montserrat, sans-serif
+@font-face {
+  font-family: 'Montserrat Black', sans-serif;
+  src: url('https://jorge-jbs.github.io/assets/Montserrat-Black.ttf') format('truetype');
 }
 
-body{
+@font-face {
+  font-family: 'Montserrat Bold', sans-serif;
+  src: url('https://jorge-jbs.github.io/assets/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat SemiBold', sans-serif;
+  src: url('https://jorge-jbs.github.io/assets/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat ExtraBold', sans-serif;
+  src: url('https://jorge-jbs.github.io/assets/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+html {
+  font-family: 'Montserrat Regular', sans-serif
+}
+
+body {
   display:block;
   margin:0;
   font-size:1.4rem;
   background-color:#fff
 }
 
-header{
+header {
   line-height:1.5;
   margin:0;
   padding:1.2rem 0;
@@ -24,7 +44,7 @@ header{
   position:relative
 }
 
-.logo{
+.logo {
   margin:0;
   text-align:left;
   font-size:1.6rem
@@ -32,7 +52,7 @@ header{
 
 .logo a {
   float:left;
-  font-family:"Helvetica";
+  font-family: "Montserrat Bold";
   color:#333;
   text-decoration:none
 }
@@ -42,7 +62,9 @@ header{
   text-decoration-thickness:0.07em
 }
 
-nav {text-align:right}
+nav {
+  text-align:right
+}
 
 nav a {
   margin:0 0 0 1.4rem;
